@@ -7,16 +7,16 @@ const MasonryGallery = () => {
   
   // Immagini Porrati con aspect ratio misti
   const images = [
-    { id: 1, src: "/src/assets/porrati-images/3eb1f1ba-dd71-4dd7-b5e0-175eec266827.png", ratio: "3/4", category: "Shooting Brand" },
-    { id: 2, src: "/src/assets/porrati-images/0b831b4a-144a-4144-989e-c18987be3b59.png", ratio: "16/9", category: "Lifestyle" },
-    { id: 3, src: "/src/assets/porrati-images/0b40e007-fc97-4fc9-a2d8-fa2d13e4b282.png", ratio: "4/3", category: "Shooting Gioielli" },
-    { id: 4, src: "/src/assets/porrati-images/8d8d238e-8098-4809-92f8-992f866a3f46.png", ratio: "9/16", category: "Lifestyle" },
-    { id: 5, src: "/src/assets/porrati-images/0d253c86-f376-4f37-943c-a943231a9f4a.png", ratio: "16/9", category: "Branding" },
-    { id: 6, src: "/src/assets/porrati-images/9aa56861-0eb9-40eb-ad45-a6d45674244e.png", ratio: "9/16", category: "Shooting Brand" },
-    { id: 7, src: "/src/assets/porrati-images/17a59486-0181-4018-b975-07974ec7049d.png", ratio: "4/3", category: "Shooting Gioielli" },
-    { id: 8, src: "/src/assets/porrati-images/032fabbe-3d9a-43d9-91d3-ed1d1fbe457f.png", ratio: "9/16", category: "Shooting Gioielli" },
-    { id: 9, src: "/src/assets/porrati-images/8e751c44-4ee1-44ee-a3df-123dd0d173f1.png", ratio: "16/9", category: "Lifestyle" },
-    { id: 10, src: "/src/assets/porrati-images/09b35b4d-7cc8-47cc-9378-0937a0e34bc1.png", ratio: "9/16", category: "Lifestyle" },
+    { id: 1, src: "/porrati-images/3eb1f1ba-dd71-4dd7-b5e0-175eec266827.png", ratio: "3/4", category: "Shooting Brand" },
+    { id: 2, src: "/porrati-images/0b831b4a-144a-4144-989e-c18987be3b59.png", ratio: "16/9", category: "Lifestyle" },
+    { id: 3, src: "/porrati-images/0b40e007-fc97-4fc9-a2d8-fa2d13e4b282.png", ratio: "4/3", category: "Shooting Gioielli" },
+    { id: 4, src: "/porrati-images/8d8d238e-8098-4809-92f8-992f866a3f46.png", ratio: "9/16", category: "Lifestyle" },
+    { id: 5, src: "/porrati-images/0d253c86-f376-4f37-943c-a943231a9f4a.png", ratio: "16/9", category: "Branding" },
+    { id: 6, src: "/porrati-images/9aa56861-0eb9-40eb-ad45-a6d45674244e.png", ratio: "9/16", category: "Shooting Brand" },
+    { id: 7, src: "/porrati-images/17a59486-0181-4018-b975-07974ec7049d.png", ratio: "4/3", category: "Shooting Gioielli" },
+    { id: 8, src: "/porrati-images/032fabbe-3d9a-43d9-91d3-ed1d1fbe457f.png", ratio: "9/16", category: "Shooting Gioielli" },
+    { id: 9, src: "/porrati-images/8e751c44-4ee1-44ee-a3df-123dd0d173f1.png", ratio: "16/9", category: "Lifestyle" },
+    { id: 10, src: "/porrati-images/09b35b4d-7cc8-47cc-9378-0937a0e34bc1.png", ratio: "9/16", category: "Lifestyle" },
   ];
 
   // Categorie per filtraggio
